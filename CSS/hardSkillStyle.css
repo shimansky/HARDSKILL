@@ -4,7 +4,7 @@ html, body {
         margin: 0;
         padding: 0;
         text-align: center;
-        --main-bg-color:#ff7214;
+        --main-bg-color:#00d10e;
 }
 
 header{
@@ -53,16 +53,16 @@ height: 2px;
   margin: 10px;
   height: 50px;
   width: 55%;
+  border: 2px solid black;
   border-radius: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
   transition: 0.5s;
 }
 
 .buttonBlock:hover{
   background:url();
-  background-color:#ff7214;
+  background-color:var(--main-bg-color);
   color: white;
-
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 
@@ -86,30 +86,6 @@ height: 0px;
 opacity: 0;
 }
 
-#a{
-  background:url(../IMG/back1.jpg);
-  background-size: cover;
-}
-
-#b{
-  background:url(../IMG/back2.jpg);
-  background-size: cover;
-}
-
-#c{
-  background:url(../IMG/back3.jpg);
-  background-size: cover;
-}
-
-#d{
-  background:url(../IMG/back4.jpg);
-  background-size: cover;
-}
-
-#e{
-  background:url(../IMG/back5.jpg);
-  background-size: cover;
-}
 
 .innerText{
   width: 600px;
@@ -160,12 +136,22 @@ input{
   width: 80%;
 }
 
-#redButton{
+#sendButton{
   width: 200px;
   height: 50px;
   background-color: var(--main-bg-color);
   border: none;
   border-radius: 5px;
+  margin: 10px;
+}
+
+#dissalowButton{
+  width: 200px;
+  height: 50px;
+  background-color: var(--main-bg-color);
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
 }
 
 @media (min-width: 700px) {
