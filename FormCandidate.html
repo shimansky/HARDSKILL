@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="CSS/hardSkillStyle.css">
+
+  <title>HARD SKILL</title>
+</head>
+<body>
+<img src="IMG/logo black.png" alt="HARD SKILL"  width="350px"><br>
+  <form action='send.php' method='post' id='sendForm'>
+    Пожалуйста, заполните форму <br><br><br>
+    Имя: <br>
+    <input type='text' name='first_name' required placeholder='Имя'><br><br>
+    Фамилия: <br>
+    <input type='text' name='last_name' required placeholder='Фамилия'><br><br>
+    E-mail: <br>
+    <input type='text' name='email'required placeholder='E-mail'><br><br>
+    Телефон: <br>
+    <input type='text' name='phone' required placeholder='телефон'><br><br>
+    Язык программирования: <br>
+    <select name='lang'>
+      <option>Java</option>
+      <option>JavaScript</option>
+      <option>C#</option>
+      <option> Kotlin</option>
+      <option>Rust</option>
+      <option>Python</option>
+      <option>C++</option>
+      <option>PHP</option>
+      <option>Go</option>
+      <option> Swift</option>
+    </select><br><br>
+    Уровень: <br>
+    <select name='level'>
+      <option>trainee</option>
+      <option>junior</option>
+      <option>middle</option>
+      <option>senior</option>
+    </select><br><br><p>
+    <input id ='sendButton' type='submit' name='submit' value='Отправить'>
+    <button id='dissalowButton' onclick='exitForm()'>ОТМЕНА</button>
+  </form>
+
+<script src="JS/logik.js" charset="utf-8"></script>
+</body>
+</html>
