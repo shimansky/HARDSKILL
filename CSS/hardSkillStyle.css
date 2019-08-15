@@ -137,13 +137,16 @@ span{
   margin-right: 20px;
   color: white;
   font-family: inherit;
-  font-weight: bolder;
+  
 }
 
 #contacts{
-  width: 100%;
-  position: absolute;
-  bottom: 5px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  height: 50px;
+  width: 55%;
+  border-radius: 20px;
   background-image: url(../IMG/cover.png);
 }
 

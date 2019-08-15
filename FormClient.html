@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="CSS/hardSkillStyle.css">
-
+  <link rel="stylesheet" href="CSS/animate.css">
   <title>HARD SKILL</title>
 </head>
 <body>
@@ -13,20 +13,20 @@
   <form action='send.php' method='post' id='sendForm'>
     Пожалуйста, заполните форму <br><br><br>
     Имя: <br>
-    <input type='text' name='first_name' required pattern="^[а-яА-Я]+$" placeholder='Имя'><br><br>
+    <input type='text' name='first_name' required pattern="^[а-яА-Я]+$" placeholder='Имя'class="animated bounceIn"><br><br>
     Фамилия: <br>
-    <input type='text' name='last_name' required pattern="^[а-яА-Я]+$" placeholder='Фамилия'><br><br>
+    <input type='text' name='last_name' required pattern="^[а-яА-Я]+$" placeholder='Фамилия' class="animated bounceIn"><br><br>
     E-mail: <br>
-    <input type='text' name='email'required placeholder='E-mail'><br><br>
+    <input type='text' name='email'required placeholder='E-mail' class="animated bounceIn"><br><br>
     Телефон: <br>
-    <input type='digit' name='phone' required pattern="^[ 0-9]+$" placeholder='телефон'><br><br>
+    <input type='digit' name='phone' required pattern="^[ 0-9]+$" placeholder='телефон' class="animated bounceIn"><br><br>
     <hr>
     Сообщение:<br>
-    <input type='text' name='message' required pattern="^[а-яА-Я]+$" placeholder='Ваше сообщение'><br><br>
+    <input type='text' name='message' required pattern="^[а-яА-Я]+$" placeholder='Ваше сообщение' class="animated bounceIn"><br><br>
     <hr>
     Пожелания к кандидату<br><br>
     Язык программирования : <br>
-    <select name='lang'>
+    <select name='lang'class="animated bounceIn">
       <option>Java</option>
       <option>JavaScript</option>
       <option>C#</option>
@@ -39,7 +39,7 @@
       <option> Swift</option>
     </select><br><br>
     Уровень: <br>
-    <select name='level'>
+    <select name='level'class="animated bounceIn">
       <option>trainee</option>
       <option>junior</option>
       <option>middle</option>
